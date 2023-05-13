@@ -1,0 +1,221 @@
+html {
+
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,
+*::before,
+*::after {
+
+    box-sizing: inherit;
+}
+
+.portada {
+
+    background-image: url(../img/portada.jpg);
+}
+
+img {
+
+    width: 100%;
+}
+
+.velo-negro {
+
+    background-color: black rgba(o, o, o.5);
+}
+
+.contenedor {
+
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+
+    max-width: 30rem;
+    margin: 3rem 0;
+    border-radius: 5%;
+    margin-right: 100rem;
+}
+
+nav {
+
+    margin: 3rem 0 8rem 0;
+    background-color: rgb(255, 192, 203, 0.768);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+
+    color: white;
+}
+
+.nuestros-productos {
+
+    background-color: rgb(255, 192, 203, 0.768);
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.producto {
+
+    background-color: rgb(255, 192, 203, 0.768);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.producto-blanco {
+
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre {
+
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-precio {
+
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.producto-nombre {
+
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.footer {
+
+    background-color: rgb(255, 192, 203, 0.768);
+    padding: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2rem;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.accesorios {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    margin-bottom: 20rem;
+}
+
+.nosotros-texto {
+
+    background-color: rgb(255, 192, 203, 0.768);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5%;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#iframe1 {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.accesorios-img {
+
+    background-color: black;
+    border-radius: 5%;
+}
+
+.bloques {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20rem;
+}
+
+.bloques img {
+
+    width: 20rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+
+.bloque .titulo {
+
+    margin: 0;
+}
+
+.bloque {
+
+    background-color: rgb(255, 192, 203, 0.768);
+    padding: 1rem;
+    border-radius: 5%;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5rem;
+}
+
+.bloque-titulo {
+
+    color: black;
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.enlace-footer:hover {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
